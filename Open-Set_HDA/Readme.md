@@ -1,4 +1,4 @@
-#Codes for Open-Set HDA experiments
+# Codes for Open-Set HDA experiments
 Before training, download the decaf features, resnet50 features, and sample indexes from 
 [here](https://drive.google.com/drive/folders/1kSC_PFkGDWwYApZ6bHYcVBWbf1iOwN1F?usp=sharing) 
 (data is the same as those for HDA), and 
