@@ -2,7 +2,7 @@
 Official codes for ["Keypoint-Guided Optimal Transport with Applications in Heterogeneous Domain Adaptation"](https://openreview.net/forum?id=m6DJxSuKuqF&noteId=SEp6zzXmpLE).
 
 ## Requirements
-python3.5 <br>
+python3.6 <br>
 scipy==1.7.1 <br>
 numpy==1.20.3 <br>
 matplotlib==3.4.3 <br>
