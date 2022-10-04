@@ -11,7 +11,7 @@ from keypointguide_POT.sinkhorn import sinkhorn_log_domain
 
 domains = ["amazon","dslr","webcam"]
 num_labeled = 1
-seed = 0
+seed = 1
 
 Tasks = []
 Accs = []
