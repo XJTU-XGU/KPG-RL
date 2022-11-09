@@ -18,11 +18,14 @@ toy experiments for KPG-RL (Section 5.1), and toy experiments for Partial KPG-RL
 ## Citation:
 ```
 @inproceedings{
-gu2022keypoint,
+gu2022keypointguided,
 title={Keypoint-Guided Optimal Transport with Applications in Heterogeneous Domain Adaptation},
 author={Xiang Gu and Yucheng Yang and Wei Zeng and Jian Sun and Zongben Xu},
-booktitle={Thirty-Sixth Conference on Neural Information Processing Systems},
-year={2022}}
+booktitle={Advances in Neural Information Processing Systems},
+editor={Alice H. Oh and Alekh Agarwal and Danielle Belgrave and Kyunghyun Cho},
+year={2022},
+url={https://openreview.net/forum?id=m6DJxSuKuqF}
+}
 ```
 
 ## Contact
