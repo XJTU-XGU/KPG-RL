@@ -30,3 +30,6 @@ url={https://openreview.net/forum?id=m6DJxSuKuqF}
 
 ## Contact
 For any problem, please do not hesitate to contact xianggu@stu.xjtu.edu.cn.
+
+
+The code is based on code of ["POT packadge"](https://pythonot.github.io/).
