@@ -4,10 +4,12 @@ Official codes for ["Keypoint-Guided Optimal Transport with Applications in Hete
 
 We presented a new optimal transport model named KPG-RL that leverages a few prior annotated keypoints to guide the matching of other points in OT. We propose a mask-based modeling of the transport plan and to preserve the relation of each data point to keypoints to realize the guidance. 
 
-Mask-based transport plan.
-![](https://github.com/XJTU-XGU/KPG-RL/blob/main/figures/figure1.png)
+Mask-based transport plan:
 
-Relation modeling.
+![](https://github.com/XJTU-XGU/KPG-RL/blob/main/figures/figure2.png)
+
+Relation modeling:
+
 ![](https://github.com/XJTU-XGU/KPG-RL/blob/main/figures/figure3.png)
 
 With the keypoints, our approach apparently improves the matching accuracy.
