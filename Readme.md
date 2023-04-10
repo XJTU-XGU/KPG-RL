@@ -1,6 +1,6 @@
 # Keypoint-Guided Optimal Transport
 Official codes for ["Keypoint-Guided Optimal Transport with Applications in Heterogeneous Domain Adaptation"](https://openreview.net/forum?id=m6DJxSuKuqF&noteId=SEp6zzXmpLE).
-
+![](https://github.com/XJTU-XGU/KPG-RL/blob/main/figures/figure.png)
 ## Requirements
 python3.6 <br>
 scipy==1.7.1 <br>
