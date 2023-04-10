@@ -1,6 +1,11 @@
 # Keypoint-Guided Optimal Transport
 Official codes for ["Keypoint-Guided Optimal Transport with Applications in Heterogeneous Domain Adaptation"](https://openreview.net/forum?id=m6DJxSuKuqF&noteId=SEp6zzXmpLE).
 ![](https://github.com/XJTU-XGU/KPG-RL/blob/main/figures/figure.png)
+
+We presented a new optimal transport model named KPG-RL that leverages a few prior annotated keypoints to guide the matching of other points in OT. We propose a mask-based modeling of the transport plan and to preserve the relation of each data point to keypoints to realize the guidance. 
+
+With the keypoints, our approach apparently improves the matching accuracy.
+
 ## Requirements
 python3.6 <br>
 scipy==1.7.1 <br>
