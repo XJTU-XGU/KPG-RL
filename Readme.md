@@ -10,7 +10,7 @@ Mask-based transport plan:
 
 Relation modeling:
 
-![](https://github.com/XJTU-XGU/KPG-RL/blob/main/figures/figure3.png = 683*784)
+![](https://github.com/XJTU-XGU/KPG-RL/blob/main/figures/figure3.png = 683x784)
 
 With the keypoints, our approach apparently improves the matching accuracy.
 ![](https://github.com/XJTU-XGU/KPG-RL/blob/main/figures/figure4.png)
