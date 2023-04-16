@@ -33,6 +33,8 @@ __toy_data_partial__: codes for toy experiments for Partial KPG-RL (Appendix B.1
 
 Please follow the __Readme.md__ in each folder to run the codes. 
 
+_We provide a demo in [demo.inby]()
+
 ## Citation:
 ```
 @inproceedings{
