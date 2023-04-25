@@ -27,7 +27,7 @@ pytorch==1.5.0 <br>
 ## Instructions for the folders
 __HDA__: codes for HDA experiments (Section 5.2) <br>
 __Open-Set HDA__: codes for Open-Set HDA experiments (Section 5.3) <br>
-__UDA__: codes for Open-Set HDA experiments (Section 5.3) <br>
+__UDA__: codes for unsupervised DA experiments (Appendix B.3) <br>
 __toy_data__: codes for toy experiments for KPG-RL (Section 5.1) <br>
 __toy_data_partial__: codes for toy experiments for Partial KPG-RL (Appendix B.1) <br>
 
