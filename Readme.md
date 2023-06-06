@@ -111,7 +111,6 @@ s =   # total mass
 kgot = KeyPointGuidedOT()
 pi = kgot.partial_kpg_rl(p, q, xs, xt, K, s=0.5, cost_function="L2", tau_s=1.0,
                   tau_t=1.0, normalized=False,eps=1e-10)
-# pi is a ndarray with shape (m,n). The algorithm could be "linear_programming" or "sinkhorn".
 ```
 
 ## Citation:
