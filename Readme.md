@@ -33,7 +33,8 @@ __toy_data_partial__: codes for toy experiments for Partial KPG-RL (Appendix B.1
 
 Please follow the __Readme.md__ in each folder to run the codes. 
 
-__We provide a easy-to-follow demo in [demo.ipynb](https://github.com/XJTU-XGU/KPG-RL/blob/main/demo.ipynb), which includes the model, algorithm, and codes. Welcome to try it!__
+##News
+[2023.04] __We provide a easy-to-follow demo in [demo.ipynb](https://github.com/XJTU-XGU/KPG-RL/blob/main/demo.ipynb), which includes the model, algorithm, and codes. Welcome to try it!__
 
 ## Citation:
 ```
