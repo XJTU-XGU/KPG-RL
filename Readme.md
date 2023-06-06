@@ -45,16 +45,73 @@ For KPG-RL model, use the following code
 from keypoint_guided_optimal_transport.keypoint_guided_OT import KeyPointGuidedOT
 
 # define the samples xs and xt , the mass p and q, and the keypoint index pair K
-xs =  #ndarray with shape (m,d)
-xt =  #ndarray with shape (n,d)
-p =   #ndarray with shape (m,)
-q =   #ndarray with shape (n,)
-K =   #list of tuples, e.g., [(0,0),(10,20)]
+xs =  # ndarray with shape (m,d)
+xt =  # ndarray with shape (n,d)
+p =   # ndarray with shape (m,)
+q =   # ndarray with shape (n,)
+K =   # list of tuples, e.g., [(0,0),(10,20)]
 
 kgot = KeyPointGuidedOT()
 pi = kgot.kpg_rl(p,q,xs,xt,K,cost_function="L2",algorithm="linear_programming",tau_s=0.1,tau_t=0.1,normalized=True,
                reg=0.0001,max_iterations=100000,thres=1e-5,eps=1e-10)
-#pi is a ndarray with shape (m,n). The algorithm could be "linear_programming" or "sinkhorn".
+# pi is a ndarray with shape (m,n). The algorithm could be "linear_programming" or "sinkhorn".
+```
+
+For KPG-RL-KP model, use the following code
+``` python
+# import keypoint-guided OT
+from keypoint_guided_optimal_transport.keypoint_guided_OT import KeyPointGuidedOT
+
+# define the samples xs and xt , the mass p and q, and the keypoint index pair K
+xs =  # ndarray with shape (m,d)
+xt =  # ndarray with shape (n,d)
+p =   # ndarray with shape (m,)
+q =   # ndarray with shape (n,)
+K =   # list of tuples, e.g., [(0,0),(10,20)]
+alpha =   # combination coeffecient
+
+kgot = KeyPointGuidedOT()
+pi = kgot.kpg_rl_kp(p,q,xs,xt,K,alpha=alpha,cost_function="L2",algorithm="linear_programming",tau_s=0.1,tau_t=0.1,
+                  normalized=True,reg=0.0001,max_iterations=100000,eps=1e-10,thres=1e-5)
+# pi is a ndarray with shape (m,n). The algorithm could be "linear_programming" or "sinkhorn".
+```
+
+For KPG-RL-KP model, use the following code
+``` python
+# import keypoint-guided OT
+from keypoint_guided_optimal_transport.keypoint_guided_OT import KeyPointGuidedOT
+
+# define the samples xs and xt , the mass p and q, and the keypoint index pair K
+xs =  # ndarray with shape (m,d)
+xt =  # ndarray with shape (n,d)
+p =   # ndarray with shape (m,)
+q =   # ndarray with shape (n,)
+K =   # list of tuples, e.g., [(0,0),(10,20)]
+alpha =   # combination coeffecient
+
+kgot = KeyPointGuidedOT()
+pi = kgot.kpg_rl_gw(p,q,xs,xt,K,alpha=alpha,cost_function="L2",algorithm="linear_programming",tau_s=0.1,tau_t=0.1,
+                  normalized=True,reg=0.0001,max_iterations=100000,eps=1e-10,thres=1e-5)
+# pi is a ndarray with shape (m,n). The algorithm could be "linear_programming" or "sinkhorn".
+```
+
+For KPG-RL-KP model, use the following code
+``` python
+# import keypoint-guided OT
+from keypoint_guided_optimal_transport.keypoint_guided_OT import KeyPointGuidedOT
+
+# define the samples xs and xt , the mass p and q, and the keypoint index pair K
+xs =  # ndarray with shape (m,d)
+xt =  # ndarray with shape (n,d)
+p =   # ndarray with shape (m,)
+q =   # ndarray with shape (n,)
+K =   # list of tuples, e.g., [(0,0),(10,20)]
+s =   # total mass 
+
+kgot = KeyPointGuidedOT()
+pi = kgot.partial_kpg_rl(p, q, xs, xt, K, s=0.5, cost_function="L2", tau_s=1.0,
+                  tau_t=1.0, normalized=False,eps=1e-10)
+# pi is a ndarray with shape (m,n). The algorithm could be "linear_programming" or "sinkhorn".
 ```
 
 ## Citation:
