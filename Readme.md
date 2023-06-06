@@ -76,7 +76,7 @@ pi = kgot.kpg_rl_kp(p,q,xs,xt,K,alpha=alpha,cost_function="L2",algorithm="linear
 # pi is a ndarray with shape (m,n). The algorithm could be "linear_programming" or "sinkhorn".
 ```
 
-For KPG-RL-KP model, use the following code
+For KPG-RL-GW model, use the following code
 ``` python
 # import keypoint-guided OT
 from keypoint_guided_optimal_transport.keypoint_guided_OT import KeyPointGuidedOT
@@ -95,7 +95,7 @@ pi = kgot.kpg_rl_gw(p,q,xs,xt,K,alpha=alpha,cost_function="L2",algorithm="linear
 # pi is a ndarray with shape (m,n). The algorithm could be "linear_programming" or "sinkhorn".
 ```
 
-For KPG-RL-KP model, use the following code
+For partial-KPG-RL model, use the following code
 ``` python
 # import keypoint-guided OT
 from keypoint_guided_optimal_transport.keypoint_guided_OT import KeyPointGuidedOT
