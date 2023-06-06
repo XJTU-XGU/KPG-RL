@@ -35,6 +35,7 @@ Please follow the __Readme.md__ in each folder to run the codes.
 
 ## News
 [2023.04] __We provide a easy-to-follow demo in [demo.ipynb](https://github.com/XJTU-XGU/KPG-RL/blob/main/demo.ipynb), which includes the model, algorithm, and codes. Welcome to try it!__
+
 [2023.06] __We upload the keypoint-guided OT packadge in folder "keypoint_guided_optimal_transport" and examples in "Examples_of_KPG_OT.py".__
 
 ## Using keypoint-guided OT in you code
