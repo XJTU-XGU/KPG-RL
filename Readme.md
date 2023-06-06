@@ -40,9 +40,9 @@ Please follow the __Readme.md__ in each folder to run the codes.
 
 ## Using keypoint-guided OT in you code
 For KPG-RL model, use the following code
-''' python
+``` python
 import as
-'''
+```
 
 ## Citation:
 ```
