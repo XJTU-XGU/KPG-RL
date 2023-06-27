@@ -1,4 +1,4 @@
-# Keypoint-Guided Optimal Transport
+# Keypoint-Guided Optimal Transport (NeurIPS)
 Official codes for conference paper ["Keypoint-Guided Optimal Transport with Applications in Heterogeneous Domain Adaptation"](https://openreview.net/forum?id=m6DJxSuKuqF&noteId=SEp6zzXmpLE) and journal version ["Keypoint-Guided Optimal Transport"](https://arxiv.org/abs/2303.13102).
 ![](https://github.com/XJTU-XGU/KPG-RL/blob/main/figures/figure.png)
 
