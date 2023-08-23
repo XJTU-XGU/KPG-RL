@@ -56,7 +56,7 @@ class KeyPointGuidedOT(object):
 
         ## solving model
         if algorithm == "linear_programming":
-            pi = linearprog.lp_sci(p,q,G,M)
+            pi = linearprog.lp(p,q,G,M)
         elif algorithm == "sinkhorn":
             pi = sinkhorn.sinkhorn_log_domain(p,q,G,M,reg,max_iterations,thres)
         else:
@@ -109,7 +109,7 @@ class KeyPointGuidedOT(object):
 
         ## solving model
         if algorithm == "linear_programming":
-            pi = linearprog.lp_sci(p,q,G,M)
+            pi = linearprog.lp(p,q,G,M)
         elif algorithm == "sinkhorn":
             pi = sinkhorn.sinkhorn_log_domain(p,q,G,M,reg,max_iterations,thres)
         else:
