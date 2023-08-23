@@ -38,6 +38,11 @@ Please follow the __Readme.md__ in each folder to run the codes.
 
 [2023.06] __We upload the keypoint-guided OT packadge in folder ["keypoint_guided_optimal_transport"](https://github.com/XJTU-XGU/KPG-RL/tree/main/keypoint_guided_optimal_transport) and examples in ["Examples_of_KPG_OT.py"](https://github.com/XJTU-XGU/KPG-RL/blob/main/Examples_of_KPG_OT.py).__
 
+[2023.08] __The linear programming implementation on sparse matrixes is available in ["keypoint_guided_optimal_transport/linearprog.py"](https://github.com/XJTU-XGU/KPG-RL/tree/main/keypoint_guided_optimal_transport/linearprog.py), which is memory-efficient for a large number of data points. Please set "sparse=True"  in function "lp" to use it as follows:__
+```python
+lp(p, q, C, Mask=None,sparse=True)
+```
+
 ## Using keypoint-guided OT in you code
 For KPG-RL model, use the following code
 ``` python
